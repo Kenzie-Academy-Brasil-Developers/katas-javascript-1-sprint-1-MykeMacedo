@@ -12,7 +12,6 @@ function evensToTwenty() {
   for (numero= 0; numero < 20; numero += 2){
     return numero
   }
-
 }
   
 
@@ -22,8 +21,7 @@ function oddsToTwenty() {
     
   for (digito = 1; digito < 20; digito += 2){
     return digito
-  }
-   
+  }   
 }
 
 oddsToTwenty()
@@ -33,7 +31,6 @@ function multiplesOfFive() {
   for (multiplos = 0; multiplos <= 100; multiplos += 5){
     return multiplos
   }
-
 }
 
 multiplesOfFive()
@@ -43,8 +40,7 @@ let resultado
   for (contador = 1; contador <= 10; contador++){
     resultado = contador * contador
     return resultado
-  }
-  
+  }  
 }
 
 squareNumbers()
