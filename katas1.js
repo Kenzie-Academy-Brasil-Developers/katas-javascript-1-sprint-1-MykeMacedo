@@ -1,94 +1,96 @@
 function oneThroughTwenty() {
-    
-   /* Your code goes below
-   Write a for or a while loop
-   return the result*/
-    
+  
+  for (contador = 0; contador < 20; contador++){
+    return contador
+  }
 }
 
-//call function oneThroughTwenty
+oneThroughTwenty()
 
 function evensToTwenty() {
     
-   /* Your code goes below
-   Write a for or a while loop
-   return the result */
-  
-}
+  for (numero= 0; numero < 20; numero += 2){
+    return numero
+  }
 
-//call function evensToTwenty
+}
+  
+
+evensToTwenty()
 
 function oddsToTwenty() {
     
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  for (digito = 1; digito < 20; digito += 2){
+    return digito
+  }
    
 }
 
-//call function oddsToTwenty
+oddsToTwenty()
 
 function multiplesOfFive() {
     
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  for (multiplos = 0; multiplos <= 100; multiplos += 5){
+    return multiplos
+  }
 
 }
 
-//call function multiplesOfFive
+multiplesOfFive()
 
 function squareNumbers() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
-    
+let resultado  
+  for (contador = 1; contador <= 10; contador++){
+    resultado = contador * contador
+    return resultado
+  }
+  
 }
 
-//call function squareNumbers
+squareNumbers()
 
 function countingBackwards() {
     
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  for (contadorI = 20; contadorI > 1; contadorI--){
+    return contadorI
+  }
 }
 
-//call function countingBackwards
+countingBackwards()
 
 function evenNumbersBackwards() {
     
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  for (contadorv = 20; contadorv > 1; contadorv -= 2){
+    return contadorv
+  }
 }
 
-//call function evenNumbersBackwards
+evenNumbersBackwards
 
 function oddNumbersBackwards() {
     
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  for (digitoa = 19; digitoa > 1; digitoa -= 2){
+    return digitoa
+  }
 }
 
-//call function oddNumbersBackwards
+oddNumbersBackwards()
 
 function multiplesOfFiveBackwards() {
     
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  for (digitob = 100; digitob >= 5; digitob -= 5){
+    return digitob
+  }
 }
 
-//call function multiplesOfFiveBackwards
+multiplesOfFiveBackwards()
 
 function squareNumbersBackwards() {
-    
-   /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  let resultadoa  
+  for (quadrado = 10; quadrado > 1; quadrado--){
+      resultadoa = quadrado * quadrado
+      return resultadoa
+  }
 }
 
-//call function squareNumbersBackwards
+squareNumbersBackwards()
