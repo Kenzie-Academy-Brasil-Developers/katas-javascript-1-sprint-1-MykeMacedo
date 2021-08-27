@@ -10,7 +10,7 @@ oneThroughTwenty()
 
 function evensToTwenty() {
     
-  for (contador = 0; contador <= 20; contador += 2){
+  for (contador = 1; contador <= 20; contador += 2){
     console.log(contador)
   }
 }
