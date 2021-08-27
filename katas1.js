@@ -1,16 +1,17 @@
 function oneThroughTwenty() {
   
-  for (contador = 0; contador < 20; contador++){
-    return contador
+  for (contador = 1; contador <= 20; contador++){
+    console.log(contador)
   }
 }
 
 oneThroughTwenty()
 
+
 function evensToTwenty() {
     
-  for (numero= 0; numero < 20; numero += 2){
-    return numero
+  for (contador = 0; contador <= 20; contador += 2){
+    console.log(contador)
   }
 }
   
@@ -19,8 +20,8 @@ evensToTwenty()
 
 function oddsToTwenty() {
     
-  for (digito = 1; digito < 20; digito += 2){
-    return digito
+  for (contador = 1; contador <= 20; contador += 2){
+    console.log(contador)
   }   
 }
 
@@ -28,8 +29,8 @@ oddsToTwenty()
 
 function multiplesOfFive() {
     
-  for (multiplos = 0; multiplos <= 100; multiplos += 5){
-    return multiplos
+  for (contador = 5; contador <= 100; contador += 5){
+    console.log(contador)
   }
 }
 
@@ -39,7 +40,7 @@ function squareNumbers() {
 let resultado  
   for (contador = 1; contador <= 10; contador++){
     resultado = contador * contador
-    return resultado
+    console.log(resultado)
   }  
 }
 
@@ -47,8 +48,8 @@ squareNumbers()
 
 function countingBackwards() {
     
-  for (contadorI = 20; contadorI > 1; contadorI--){
-    return contadorI
+  for (contador = 20; contador >= 1; contador--){
+    console.log(contador)
   }
 }
 
@@ -56,17 +57,17 @@ countingBackwards()
 
 function evenNumbersBackwards() {
     
-  for (contadorv = 20; contadorv > 1; contadorv -= 2){
-    return contadorv
+  for (contador = 20; contador > 1; contador -= 2){
+    console.log(contador)
   }
 }
 
-evenNumbersBackwards
+evenNumbersBackwards()
 
 function oddNumbersBackwards() {
     
-  for (digitoa = 19; digitoa > 1; digitoa -= 2){
-    return digitoa
+  for (contador = 19; contador >= 1; contador -= 2){
+    console.log(contador)
   }
 }
 
@@ -74,18 +75,18 @@ oddNumbersBackwards()
 
 function multiplesOfFiveBackwards() {
     
-  for (digitob = 100; digitob >= 5; digitob -= 5){
-    return digitob
+  for (contador = 100; contador >= 5; contador -= 5){
+    console.log(contador)
   }
 }
 
 multiplesOfFiveBackwards()
 
 function squareNumbersBackwards() {
-  let resultadoa  
-  for (quadrado = 10; quadrado > 1; quadrado--){
-      resultadoa = quadrado * quadrado
-      return resultadoa
+  let resultado  
+  for (contador = 10; contador > 1; contador--){
+      resultado = contador * contador
+      console.log(resultado)
   }
 }
 
